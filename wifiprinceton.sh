@@ -1,5 +1,7 @@
 #!/bin/bash
 
+nmcli dev wifi rescan
+
 nmcli dev wifi connect "Princeton ML Guest"
 
 #sleep 300
