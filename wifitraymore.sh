@@ -2,7 +2,9 @@
 
 nmcli dev wifi connect "TRAYMORE GUEST"
 
-/bin/sleep 300
+#/bin/sleep 300
+
+ping -c 300 127.0.0.1 > /dev/null
 
 #read -t 300 -p "Waiting 5 minutes... (press enter to skip) " || true
 
