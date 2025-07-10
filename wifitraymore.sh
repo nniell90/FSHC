@@ -2,9 +2,9 @@
 
 nmcli dev wifi connect "TRAYMORE GUEST"
 
-#sleep 300
+/bin/sleep 300
 
-read -t 300 -p "Waiting 5 minutes... (press enter to skip) " || true
+#read -t 300 -p "Waiting 5 minutes... (press enter to skip) " || true
 
 echo "sleeping for 5 minutes"
 
