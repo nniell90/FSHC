@@ -1,5 +1,7 @@
 #!/bin/bash
 
+nmcli dev wifi rescan
+
 nmcli dev wifi connect "sccguest"
 
 #sleep 300
