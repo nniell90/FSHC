@@ -12,6 +12,6 @@ echo "sleeping for 5 minutes"
 
 nmcli dev wifi connect "FSHC Corp"
 
-nmcli connection delete id "TRAYMORE GUEST"
+nmcli connection delete id "sccguest"
 
 echo "COMPLETE!" 
