@@ -2,7 +2,7 @@
 
 nmcli dev wifi connect "TRAYMORE GUEST"
 
-Sleep 300
+sleep 300
 
 echo "sleeping for 5 minutes"
 
