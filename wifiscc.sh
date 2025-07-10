@@ -2,6 +2,8 @@
 
 nmcli dev wifi rescan
 
+sleep 30
+
 nmcli dev wifi connect "sccguest"
 
 #sleep 300
